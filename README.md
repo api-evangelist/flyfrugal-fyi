@@ -1,4 +1,4 @@
-# flyfrugal-fyi
+# Fly Frugal
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,119 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-flyfrugal-fyi is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://flyfrugal.fyi/
+Fly Frugal provides a public travel data API and MCP that offers read‑only access to flight deal previews, itinerary data, and verified savings. The service aggregates fare observations, compares them with price‑insight sources, and presents only deals verified as savings for the current day. It aims to help developers and AI assistants integrate flight‑deal data without authentication, while offering documentation, pricing, and contact pages on its site.
+
+**Areas:** Travel · Data · API · MCP · Flight Deals · Company
+
+## Fly Frugal on APIs.io
+
+Everything profiled for Fly Frugal is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/flyfrugal-fyi/](https://apis.io/providers/flyfrugal-fyi/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [Fly Frugal Calendar API](https://apis.io/apis/flyfrugal-fyi/flyfrugal-fyi-calendar-api/) — The Calendar API from Fly Frugal — 1 operation(s) for calendar.
+- [Fly Frugal Catalog API](https://apis.io/apis/flyfrugal-fyi/flyfrugal-fyi-catalog-api/) — The Catalog API from Fly Frugal — 1 operation(s) for catalog.
+- [Fly Frugal Deals API](https://apis.io/apis/flyfrugal-fyi/flyfrugal-fyi-deals-api/) — The Deals API from Fly Frugal — 1 operation(s) for deals.
+- [Fly Frugal History API](https://apis.io/apis/flyfrugal-fyi/flyfrugal-fyi-history-api/) — The History API from Fly Frugal — 1 operation(s) for history.
+- [Fly Frugal Itineraries API](https://apis.io/apis/flyfrugal-fyi/flyfrugal-fyi-itineraries-api/) — The Itineraries API from Fly Frugal — 2 operation(s) for itineraries.
+- [Fly Frugal Weather API](https://apis.io/apis/flyfrugal-fyi/flyfrugal-fyi-weather-api/) — The Weather API from Fly Frugal — 1 operation(s) for weather.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Flyfrugal Fyi Agentic Access](https://apis.io/agentic-access/flyfrugal-fyi/flyfrugal-fyi-agentic-access/)
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [FlightDeal](https://apis.io/schemas/flyfrugal-fyi/flyfrugal-fyi-flight-deal/)
+- [ItineraryPreview](https://apis.io/schemas/flyfrugal-fyi/flyfrugal-fyi-itinerary-preview/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Flyfrugal Fyi Context](https://apis.io/jsonld/flyfrugal-fyi/flyfrugal-fyi-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Fly Frugal API Rules](https://apis.io/rules/flyfrugal-fyi/flyfrugal-fyi-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Flyfrugal Fyi Domain Security](https://apis.io/security/flyfrugal-fyi/flyfrugal-fyi-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://flyfrugal.fyi/)
+- [Documentation](https://flyfrugal.fyi/docs)
+- [API reference](https://flyfrugal.fyi/docs/openapi.yaml)
+- [Privacy policy](https://flyfrugal.fyi/privacy)
+
+## API Evangelist rating
+
+**Kin Score 33.8** — thin · rubric 0.27.0 · scored 2026-11-08
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 49.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 10.5 |
+
+**Agent readiness 27.4** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 14.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/flyfrugal-fyi/](https://apis.io/providers/flyfrugal-fyi/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Fly Frugal: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/flyfrugal-fyi/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
